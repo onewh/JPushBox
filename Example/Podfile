@@ -8,6 +8,6 @@ target 'JPushBox_Example' do
   target 'JPushBox_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+    # pod 'FBSnapshotTestCase'
   end
 end

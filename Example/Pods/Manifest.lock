@@ -1,0 +1,16 @@
+PODS:
+  - JPushBox (0.1.0)
+
+DEPENDENCIES:
+  - JPushBox (from `../`)
+
+EXTERNAL SOURCES:
+  JPushBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JPushBox: 1fbeec9ef9c741ea7fa8d073487e318d15013675
+
+PODFILE CHECKSUM: ae3cf24245760e8d3a787ff0ae337f04d2aaabe3
+
+COCOAPODS: 1.7.2

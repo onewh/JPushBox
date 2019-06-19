@@ -1,0 +1,6 @@
+framework module Pods_JPushBox_Example {
+  umbrella header "Pods-JPushBox_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

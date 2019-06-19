@@ -1,0 +1,23 @@
+{
+  "name": "JPushBox",
+  "version": "0.1.0",
+  "summary": "A Test repp for embed JPush.",
+  "description": "测试是否能够依赖极光推送制作pod\n- ERROR | [iOS] unknown: Encountered an unknown error (The 'Pods-App' target has transitive dependencies that include statically linked binaries: (/private/var/folders/5f/kytldhm53c1885k7xzbys1pr0000gn/T/CocoaPods-Lint-20190619-25896-1ep1yfy-JPushBox/Pods/JPush/libjpush-ios-3.2.1.a)) during validation.",
+  "homepage": "https://github.com/onewh/JPushBox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "onewh": "wh@addcn.com"
+  },
+  "source": {
+    "git": "https://github.com/onewh/JPushBox.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JPushBox/Classes/**/*",
+  "frameworks": "UIKit"
+}

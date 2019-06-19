@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JPushBox'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JPushBox.'
+  s.version          = '0.2.0'
+  s.summary          = 'A Test repp for embed JPush.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  测试是否能够依赖极光推送制作pod
+  - ERROR | [iOS] unknown: Encountered an unknown error (The 'Pods-App' target has transitive dependencies that include statically linked binaries: (/private/var/folders/5f/kytldhm53c1885k7xzbys1pr0000gn/T/CocoaPods-Lint-20190619-25896-1ep1yfy-JPushBox/Pods/JPush/libjpush-ios-3.2.1.a)) during validation.
                        DESC
 
   s.homepage         = 'https://github.com/onewh/JPushBox'
@@ -37,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
+  s.dependency 'JPush', '~> 3.2.0'
 end
