@@ -20,7 +20,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
   测试是否能够依赖极光推送制作pod
   - ERROR | [iOS] unknown: Encountered an unknown error (The 'Pods-App' target has transitive dependencies that include statically linked binaries: (/private/var/folders/5f/kytldhm53c1885k7xzbys1pr0000gn/T/CocoaPods-Lint-20190619-25896-1ep1yfy-JPushBox/Pods/JPush/libjpush-ios-3.2.1.a)) during validation.
-                       DESC
+   
+  
+  
+  DESC
 
   s.homepage         = 'https://github.com/onewh/JPushBox'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,6 +33,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.static_framework = true
 
   s.source_files = 'JPushBox/Classes/**/*'
   
