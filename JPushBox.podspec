@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JPushBox'
-  s.version          = '0.2.4'
+  s.version          = '0.2.5'
   s.summary          = 'A Test repp for embed JPush.'
 
 # This description is used to generate tags and improve search results.

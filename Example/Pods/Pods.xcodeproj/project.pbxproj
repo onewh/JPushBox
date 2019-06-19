@@ -10,7 +10,6 @@
 		217AD6DEC2A42DBF9645C9ACFC6A1BA5 /* Pods-JPushBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F8065F26DC0F624093849BEF925AF6 /* Pods-JPushBox_Example-dummy.m */; };
 		2DE8DBFF12D17EFAF50F249CA08DCDB0 /* Pods-JPushBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C78E4794C31F0E13D5C2BEDBEC0C89B6 /* Pods-JPushBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DDD92706327751755462B034FE6A6B4 /* Pods-JPushBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 165247A9EF0C58E3DE8E98EDFDA9A5B4 /* Pods-JPushBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5345734822B9E6DB00CCD7C5 /* SwiftC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5345734722B9E6DB00CCD7C5 /* SwiftC.swift */; };
 		605BE2F410ADF84E4AF8CA359CAC503B /* JPushBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C58232A353CAFE170BB5F2A2E2E276A /* JPushBox-dummy.m */; };
 		6569902222068FC704117D1553E926BD /* JPushBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A176F09200A7F051320CCF66067128A /* JPushBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95D34A564A8318CDA7487B6F1B5E52C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
@@ -54,7 +53,6 @@
 		401BF75B1F45438AC856C4BCCF38612B /* JPushBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JPushBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F31C84BD340639D8F2C1525403CAC2 /* Pods-JPushBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPushBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5345734722B9E6DB00CCD7C5 /* SwiftC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftC.swift; path = JPushBox/Classes/SwiftC.swift; sourceTree = "<group>"; };
 		5A176F09200A7F051320CCF66067128A /* JPushBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPushBox-umbrella.h"; sourceTree = "<group>"; };
 		6071098D53A0EEF04B140242957687B2 /* Pods-JPushBox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPushBox_Example-Info.plist"; sourceTree = "<group>"; };
 		639FC1B15A3919AB273094300ECBC7A5 /* jpush-ios-3.2.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "jpush-ios-3.2.1.a"; path = "JPushBox/Classes/jpush-ios-3.2.1.a"; sourceTree = "<group>"; };
@@ -159,7 +157,6 @@
 		76D6E633A21D737199DF9689E64C07C7 /* JPushBox */ = {
 			isa = PBXGroup;
 			children = (
-				5345734722B9E6DB00CCD7C5 /* SwiftC.swift */,
 				E1892831F9E8B37D841578391400F694 /* jcore-ios-2.0.2.a */,
 				639FC1B15A3919AB273094300ECBC7A5 /* jpush-ios-3.2.1.a */,
 				A8996F80F0D5E25519D3B1B3E369539F /* JPUSHService.h */,
@@ -402,7 +399,6 @@
 				DF0E5B8797531324230E334D486A7856 /* jcore-ios-2.0.2.a in Sources */,
 				C0D6914FA2D0C28990CDAAF727B630C7 /* jpush-ios-3.2.1.a in Sources */,
 				605BE2F410ADF84E4AF8CA359CAC503B /* JPushBox-dummy.m in Sources */,
-				5345734822B9E6DB00CCD7C5 /* SwiftC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
